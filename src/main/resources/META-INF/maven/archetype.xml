@@ -1,0 +1,22 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+    <id>t3hnar-jse</id>
+
+    <sources>
+        <source encoding="UTF-8">src/main/java/Starter.java</source>
+    </sources>
+
+    <resources>
+        <resource encoding="UTF-8">src/main/resources/messages.properties</resource>
+        <resource encoding="UTF-8" filtered="true">src/main/resources/log4j.xml</resource>
+    </resources>
+
+    <testSources>
+        <source encoding="UTF-8">src/test/java/StarterTest.java</source>
+    </testSources>
+
+    <testResources>
+        <resource encoding="UTF-8">src/test/resources/test.properties</resource>
+    </testResources>
+</archetype>
